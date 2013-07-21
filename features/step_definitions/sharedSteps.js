@@ -26,8 +26,9 @@ var myStepDefinitionsWrapper = function () {
 
   this.Then("the page will finish rendering", function(callback) {  
     debugger;
-//    this.proxy.end();
+    this.proxy.end();
     if(this.results['isPageLoaded']) {
+//  all is good until here 	
       callback();
     } else {
       callback.fail('Page did not render');
