@@ -1,0 +1,14 @@
+{
+    "name": "cucumberjs-with-phantom-proxy"
+  , "version": "0.0.1"
+  , "private": true
+  , "dependencies": {
+  },
+  "devDependencies" : {
+      "phantomjs"   : "*"
+    , "phantom-proxy"   : "*"
+    , "cucumber"    : "*"
+	, "q"  : "*"
+	, "underscore" : "*"
+  }
+}
