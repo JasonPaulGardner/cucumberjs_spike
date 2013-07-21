@@ -10,7 +10,9 @@ var myStepDefinitionsWrapper = function () {
   });
   
   this.When("I visit a web page", function(callback) {
-      this.visit('http://www.w3.org', callback)
+      this.visit('http://www.w3.org', function(result) {
+	     callback();
+	  });
   });
 
   this.When("the web page is loaded", function(callback) {

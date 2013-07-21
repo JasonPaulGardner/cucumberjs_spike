@@ -5,7 +5,7 @@ var World = function World(callback) {
   self.proxy;
   self.visit = function (url, callbackFn) {
 			self.proxy.page.open(url, function (result) {
-                callbackFn.call(self, !result);
+                callbackFn.call(self, result);
             });
         };
   
