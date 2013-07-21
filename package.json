@@ -1,14 +1,19 @@
 {
-    "name": "cucumberjs-with-phantom-proxy"
-  , "version": "0.0.1"
-  , "private": true
-  , "dependencies": {
+  "name": "cucumberjs-spike"
+  "description": "a spike to investigate cucumberjs with phantom-proxy",
+  "version": "0.0.0",
+  "author": "Jason Gardner <jason.gardner@internode.on.net> (http://about.me/jason.gardner)",
+  "repository": {
+    "type": "git",
+    "url": "git@https://github.com/JasonPaulGardner/cucumberjs_spike.git"
+  },
+  "dependencies": {
   },
   "devDependencies" : {
-      "phantomjs"   : "*"
-    , "phantom-proxy"   : "*"
-    , "cucumber"    : "*"
-	, "q"  : "*"
-	, "underscore" : "*"
+    "phantomjs": "*",
+    "phantom-proxy": "*",
+    "cucumber": "*",
+	"q": "*",
+	"underscore": "*"
   }
 }
